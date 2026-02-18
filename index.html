@@ -14,7 +14,7 @@
             font-family: 'Inter', sans-serif; 
             -webkit-tap-highlight-color: transparent;
         }
-        /* Scrollbar customizada para um visual mais moderno */
+        /* Scrollbar customizada */
         ::-webkit-scrollbar {
             width: 6px;
         }
@@ -28,7 +28,6 @@
         ::-webkit-scrollbar-thumb:hover {
             background: #94a3b8;
         }
-        /* Previne o bounce effect no iOS */
         html, body {
             overscroll-behavior-y: none;
         }
@@ -48,9 +47,10 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-BOH3_O5f.js"></script>
+  <script type="module" crossorigin src="./assets/index-BOH3_O5f.js"></script>
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased overflow-x-hidden">
     <div id="root"></div>
+    <!-- O caminho "./index.tsx" avisa ao Vite para resolver o arquivo a partir da raiz do projeto -->
 </body>
 </html>
